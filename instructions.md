@@ -30,13 +30,23 @@
     python src/main.py
     ```
 
-2.  **How to use**:
-    - **Start Selection**: Press **Left Ctrl** or **Right Ctrl** once. (Mouse position is recorded as Start Point).
-    - **End Selection**: Move your mouse to the diagonal corner of the text you want to capture. Press **Ctrl** again. (Mouse position is recorded as End Point).
-    - **Result**: The application will capture the screen region, read the text, ask Gemini, and show the answer in a Toast notification.
+2.  **Mode Pengoperasian**:
+    Tekan angka **1, 2, 3, atau 4** kapan saja (saat program tidak sedang memproses) untuk mengubah mode respon AI:
 
-3.  **Exit**:
-    - Press `Ctrl+C` in the terminal to stop the program.
+    | Mode  | Nama          | Batasan Respon                                              |
+    | :---- | :------------ | :---------------------------------------------------------- |
+    | **1** | Super Singkat | **Tepat 1 Kalimat.** Langsung ke inti tanpa basa-basi.      |
+    | **2** | Singkat       | **Maksimal 3 Kalimat.** Padat dan informatif.               |
+    | **3** | Efektif       | **Lugas & Akurat.** Format standar yang objektif.           |
+    | **4** | Detail        | **Analisis Kritis.** Penjelasan mendalam (min. 3 paragraf). |
+
+3.  **How to use**:
+    - **Start Selection**: Tekan tombol **Ctrl** (Kiri atau Kanan) sekali di posisi awal.
+    - **End Selection**: Gerakkan mouse ke sudut diagonal, lalu tekan **Ctrl** lagi.
+    - **Proses**: Program akan melakukan OCR, mengirimnya ke Gemini, dan menampilkan hasil via Windows Toast.
+
+4.  **Exit**:
+    - Tekan **ESC** untuk keluar dari program dengan aman (membersihkan proses browser otomatis).
 
 ## Troubleshooting
 
