@@ -1,0 +1,10 @@
+pynput
+pytesseract
+google-generativeai
+python-dotenv
+Pillow
+plyer
+mss
+pywin32
+pyautogui
+opencv-python

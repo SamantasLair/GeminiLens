@@ -1,0 +1,29 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# Selenium / Browser Profile & Logs
+chrome_profile/
+**/chrome_profile/
+*.log
+debug_*.png
+*.png
+diagnosis_images/
+diagnosis_v3/
+here.txt
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+Desktop.ini
