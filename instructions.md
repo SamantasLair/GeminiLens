@@ -33,12 +33,12 @@
 2.  **Mode Pengoperasian**:
     Tekan angka **1, 2, 3, atau 4** kapan saja (saat program tidak sedang memproses) untuk mengubah mode respon AI:
 
-    | Mode  | Nama          | Batasan Respon                                              |
-    | :---- | :------------ | :---------------------------------------------------------- |
-    | **1** | Super Singkat | **Tepat 1 Kalimat.** Langsung ke inti tanpa basa-basi.      |
-    | **2** | Singkat       | **Maksimal 3 Kalimat.** Padat dan informatif.               |
-    | **3** | Efektif       | **Lugas & Akurat.** Format standar yang objektif.           |
-    | **4** | Detail        | **Analisis Kritis.** Penjelasan mendalam (min. 3 paragraf). |
+    | Mode  | Nama          | Batasan Respon          | Status        |
+    | :---- | :------------ | :---------------------- | :------------ |
+    | **1** | Super Singkat | **Tepat 1 Kalimat.**    | Eksperimental |
+    | **2** | Singkat       | **Maksimal 3 Kalimat.** | Eksperimental |
+    | **3** | Efektif       | **Lugas & Akurat.**     | Stabil        |
+    | **4** | Detail        | **Analisis Kritis.**    | Eksperimental |
 
 3.  **How to use**:
     - **Start Selection**: Tekan tombol **Ctrl** (Kiri atau Kanan) sekali di posisi awal.
